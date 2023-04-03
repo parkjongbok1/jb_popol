@@ -30,6 +30,7 @@
 
   z-index: 999999;
   background: white;
+  /* display: none; */
 }
 .st_intro {
 }
@@ -102,6 +103,82 @@
   z-index: 1000;
 }
 
+.ani {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: all 1s;
+}
+.ani-T {
+  opacity: 0;
+  transform: translateY(-35px);
+  transition: all 1s;
+}
+.ani-L {
+  opacity: 0;
+  transform: translateX(-35px);
+  transition: all 1s;
+}
+.ani-R {
+  opacity: 0;
+  transform: translateX(35px);
+  transition: all 1s;
+}
+.ani-O {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.ani-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.ani-in-T {
+  opacity: 1;
+  transform: translateY(0);
+}
+.ani-in-L {
+  opacity: 1;
+  transform: translateX(0);
+}
+.ani-in-R {
+  opacity: 1;
+  transform: translateX(0);
+}
+.ani-in-O {
+  opacity: 1;
+}
+
+.t-delay0_1 {
+  transition-delay: 0.1s;
+}
+.t-delay0_2 {
+  transition-delay: 0.2s;
+}
+.t-delay0_3 {
+  transition-delay: 0.3s;
+}
+.t-delay0_4 {
+  transition-delay: 0.4s;
+}
+.t-delay0_5 {
+  transition-delay: 0.5s;
+}
+.t-delay0_6 {
+  transition-delay: 0.6s;
+}
+.t-delay0_7 {
+  transition-delay: 0.7s;
+}
+.t-delay0_8 {
+  transition-delay: 0.8s;
+}
+.t-delay0_9 {
+  transition-delay: 0.9s;
+}
+.t-delay1 {
+  transition-delay: 1s;
+}
+
 /* wrap */
 html {
   height: 100%;
@@ -153,7 +230,7 @@ a {
   top: 40px;
   transform: translateX(-50%);
   transition: 0.3s;
-  z-index: 10;
+  z-index: 999;
 
   display: flex;
   justify-content: space-between;

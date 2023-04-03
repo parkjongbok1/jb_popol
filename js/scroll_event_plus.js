@@ -20,7 +20,7 @@ $(document).ready(function () {
     }
     if (scrollTop > sec2_offset / 3) {
       $(".s_cloud01").css({
-        transform: "translateX(" + contents_scrillTop * 1.3 + "px)",
+        transform: "translateX(" + contents_scrillTop * 0.6 + "px)",
       });
       $(".s_cloud02").css({
         transform: "translateX(" + -contents_scrillTop * 0.4 + "px)",
@@ -29,7 +29,7 @@ $(document).ready(function () {
         transform: "translateX(" + contents_scrillTop * 0.3 + "px)",
       });
       $(".s_cloud04").css({
-        transform: "translateX(" + -contents_scrillTop * 1.1 + "px)",
+        transform: "translateX(" + -contents_scrillTop * 0.5 + "px)",
       });
       $(".s_cloud05").css({
         transform: "translateX(" + contents_scrillTop * 0.4 + "px)",

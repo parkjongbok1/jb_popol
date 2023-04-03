@@ -25,3 +25,13 @@ $(document).ready(function () {
     slidesToScroll: 1, //넘겨질 슬라이드 갯수
   });
 });
+//팝업 열기
+function openModal(modalname) {
+  document.get;
+  $("." + modalname).fadeIn(300);
+}
+
+// 팝업 닫기
+$(".item_popup .close").click(function () {
+  $(this).parent().fadeOut(300);
+});

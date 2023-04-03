@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 80) {
-      $(".header").addClass("active");
-    } else {
-      $(".header").removeClass("active");
-    }
-  });
+  // $(window).scroll(function () {
+  //   if ($(this).scrollTop() > 80) {
+  //     $(".header").addClass("active");
+  //   } else {
+  //     $(".header").removeClass("active");
+  //   }
+  // });
 
   $("#intro")
     .delay(3500)
